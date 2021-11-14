@@ -21,8 +21,9 @@
             custom:npv_ShownCount="5"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            custom:npv_DividerColor="#cccccc"
-            />
+            custom:npv_ShowDivider="false"
+            custom:npv_SelectedItemBackground="@color/ios_clone_color"
+        />
         <com.henninghall.date_picker.pickers.IosClone
             android:id="@+id/year"
             android:layout_weight="1"
@@ -35,7 +36,8 @@
             custom:npv_TextSizeSelected="21dp"
             custom:npv_TextColorSelected="#000000"
             custom:npv_TextColorNormal="#aaaaaa"
-            custom:npv_DividerColor="#cccccc"
+            custom:npv_ShowDivider="false"
+            custom:npv_SelectedItemBackground="@color/ios_clone_color"
             android:contentDescription="@string/year_description"
             android:focusable="true"
             android:focusableInTouchMode="true" />
@@ -52,7 +54,8 @@
             custom:npv_TextSizeSelected="21dp"
             custom:npv_TextColorSelected="#000000"
             custom:npv_TextColorNormal="#aaaaaa"
-            custom:npv_DividerColor="#cccccc"
+            custom:npv_ShowDivider="false"
+            custom:npv_SelectedItemBackground="@color/ios_clone_color"
             android:contentDescription="@string/month_description"
             android:focusable="true"
             android:focusableInTouchMode="true"
@@ -70,7 +73,8 @@
             custom:npv_TextSizeSelected="21dp"
             custom:npv_TextColorSelected="#000000"
             custom:npv_TextColorNormal="#aaaaaa"
-            custom:npv_DividerColor="#cccccc"
+            custom:npv_ShowDivider="false"
+            custom:npv_SelectedItemBackground="@color/ios_clone_color"
             android:contentDescription="@string/date_description"
             android:focusable="true"
             android:focusableInTouchMode="true"
@@ -86,7 +90,8 @@
             custom:npv_TextSizeSelected="21dp"
             custom:npv_TextColorSelected="#000000"
             custom:npv_TextColorNormal="#aaaaaa"
-            custom:npv_DividerColor="#cccccc"
+            custom:npv_ShowDivider="false"
+            custom:npv_SelectedItemBackground="@color/ios_clone_color"
             android:contentDescription="@string/day_description"
             android:focusable="true"
             android:focusableInTouchMode="true"
@@ -97,7 +102,8 @@
             android:layout_height="match_parent"
             android:layout_width="wrap_content"
             android:layout_weight="1"
-            custom:npv_DividerColor="#cccccc"
+            custom:npv_ShowDivider="false"
+            custom:npv_SelectedItemBackground="@color/ios_clone_color"
             custom:npv_RespondChangeOnDetached="false"
             custom:npv_ShownCount="5"
             custom:npv_TextColorNormal="#aaaaaa"
@@ -114,7 +120,8 @@
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            custom:npv_DividerColor="#cccccc"
+            custom:npv_ShowDivider="false"
+            custom:npv_SelectedItemBackground="@color/ios_clone_color"
             custom:npv_RespondChangeOnDetached="false"
             custom:npv_ShownCount="5"
             custom:npv_TextColorNormal="#aaaaaa"
@@ -132,7 +139,8 @@
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            custom:npv_DividerColor="#cccccc"
+            custom:npv_ShowDivider="false"
+            custom:npv_SelectedItemBackground="@color/ios_clone_color"
             custom:npv_RespondChangeOnDetached="false"
             custom:npv_ShownCount="5"
             custom:npv_TextColorNormal="#aaaaaa"
@@ -143,7 +151,7 @@
             android:focusable="true"
             android:focusableInTouchMode="true"
             />
-            
+
         <com.henninghall.date_picker.pickers.IosClone
             android:id="@+id/empty_end"
             android:tag="empty_end"
@@ -151,8 +159,9 @@
             custom:npv_ShownCount="5"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            custom:npv_DividerColor="#cccccc"
-            />
+            custom:npv_ShowDivider="false"
+            custom:npv_SelectedItemBackground="@color/ios_clone_color"
+        />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
